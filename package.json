@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
+  "engines": {
+    "node": "16.x"
+  },
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
