@@ -10,7 +10,7 @@
   "scripts": {
     "start": "parcel src/index.html — open",
     "build": "parcel build src/index.html",
-    "heroku-postbuild" : "parcel build src/index.html"
+    "heroku-postbuild": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -25,16 +25,16 @@
   "homepage": "https://github.com/cobidev/simplefolio#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.0",
-    "parcel": "latest",
+    "parcel": "^1.12.4",
     "prettier": "^2.7.1"
   },
   "dependencies": {
-    "parcel-bundler" : "^1.12.5",
     "@mdi/font": "^2.2.43",
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^4.1.1",
     "bootstrap-sass": "^3.3.7",
     "jquery": "^3.6.1",
+    "parcel-bundler": "^1.3.1",
     "popper.js": "^1.16.1",
     "vanilla-tilt": "^1.7.3"
   }
