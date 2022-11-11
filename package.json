@@ -9,8 +9,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html — open",
-    "build": "parcel build src/index.html",
-    "heroku-postbuild": "parcel build src/index.html"
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
