@@ -8,6 +8,7 @@
   },
   "source": "src/index.html",
   "scripts": {
+    "heroku-postbuild" : "parcel build src/index.html",
     "start": "parcel",
     "build": "parcel build"
   },
