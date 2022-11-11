@@ -1,6 +1,7 @@
 {
   "name": "simplefolio",
   "version": "1.0.1",
+  "homepage": "https://gberberian.github.io/portfolio/",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "engines": {
@@ -8,6 +9,8 @@
   },
   "source": "src/index.html",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "parcel src/index.html — open",
     "build": "parcel build src/index.html"
   },
@@ -21,9 +24,9 @@
   "bugs": {
     "url": "https://github.com/cobidev/simplefolio/issues"
   },
-  "homepage": "https://github.com/cobidev/simplefolio#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.0",
+    "gh-pages": "^4.0.0",
     "parcel": "^1.12.4",
     "prettier": "^2.7.1"
   },
