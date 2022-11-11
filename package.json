@@ -30,6 +30,7 @@
     "@popperjs/core": "^2.11.6",
     "@mdi/font": "^2.2.43",
     "bootstrap": "^4.1.1",
+    "bootstrap-sass": "^3.3.7", 
     "jquery": "^3.6.1",
     "popper.js": "^1.16.1",
     "vanilla-tilt": "^1.7.3"
